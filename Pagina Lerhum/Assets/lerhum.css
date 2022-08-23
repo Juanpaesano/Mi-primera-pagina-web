@@ -1,0 +1,39 @@
+div{    
+    padding: 20 px;
+}
+
+#main{
+    background-color: bisque;
+    display: flex;
+}
+nav ul{
+    display: flex;
+}
+
+nav li{
+    margin-left: 20px;
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+    color: blueviolet;
+}
+nav img{
+    display:flex;
+    width: 20vw;
+    height: auto;
+}
+.menubutton{
+    display: flex;
+    /* background-color: */
+    /* alig-items: centrer; */
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 100%;
+}
+body {
+    background-image: image("/Users/juanpaesano/Documents/Facultad/Programacion web/Pagina Lerhum/Assets/IMG/barraDeDia.jpeg"); 
+}
